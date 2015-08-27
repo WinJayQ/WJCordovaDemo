@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+
+html{font-size:625%;}
+.progressbar{
+	z-index:-999;
+    position:relative;
+    display:block;
+    width:100%;
+    height:4.1rem;
+    margin:0.2rem auto;
+	background:url(../images/drive_report_ranking.png) 0.1rem top no-repeat;background-size:contain;
+ 
+}
+.progressbar-2{height:2.9rem;}
+
+
+.label {
+	z-index:-999;
+	font-family:'Aldrich', sans-serif;
+	position:absolute;
+	display:block;
+	width:74%;
+	height:0.3rem;
+	line-height:0.15rem;
+	left:0.75rem;
+	
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#262626',GradientType=0 );
+	font-weight:bold;
+	font-size:0.16rem;
+	color:#787878;
+	text-align:center;
+    filter:dropshadow(color=#000000, offx=0, offy=-1);
+}
+
+
+.perc{position:absolute;right:-0.05rem;}
+
+.car_bg{position:absolute; bottom:-0.2rem;width:100%; z-index:-100;}
+.ranking-car-bg{background:url(../images/car.png) right top no-repeat;width:1.18rem;height:0.34rem;padding: 0 0 0.05rem 0;position:absolute;top:-0.31rem;left:-0.1rem;background-size:contain;}
+.label .narrow_center{background:url(../images/narrow_center.png) left center repeat-x; height:0.2rem; background-size:contain;}
+.label .narrow_left{float:left;background:url(../images/drive_report_narrow_bg.png) left top no-repeat; width:0.35rem; height:0.35rem;background-size:contain;position:absolute;top:-0.08rem;left:-0.1rem;}
+.label .narrow_right{float:right;background:url(../images/narrow_right.png) left center no-repeat; width:0.02rem; height:0.2rem;background-size:contain;}
+
+@-webkit-keyframes sparkle {
+	from {background-position:0 0;}
+	to {background-position:0 -0.32rem;}
+}
+@-moz-keyframes sparkle {
+	from {background-position:0 0;}
+	to {background-position:0 -0.32rem;}
+}
+@-o-keyframes sparkle {
+	from {background-position:0 0;}
+	to {background-position:0 -0.32rem;}
+}
+@keyframes sparkle {
+	from {background-position:0 0;}
+	to {background-position:0 -0.32rem;}
+}

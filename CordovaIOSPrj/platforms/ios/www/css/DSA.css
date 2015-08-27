@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+
+.mingan-info {
+	font-size: 0.15rem;
+	margin-top: 0.06rem;
+	margin-left:0.5rem;
+
+}
+.mingan-banjing {
+	width:0.5rem;
+	font-size: 0.15rem;
+	width:0.9rem;
+	margin-top:0.06rem;
+	float:left;
+}
+.mingan-title {
+	text-align: center;
+	font-size: 0.15rem;
+	width:0.9rem;
+	margin-top:0.06rem;
+	padding-left:0.03rem;
+
+}
+.jingbao {
+	font-size: 1em;
+}
+.value {
+	width:0.9rem;
+	text-align: center;
+	font-size: 0.2rem;
+	float:left;
+}
+input[type="range"] {
+	display: block;
+	-webkit-appearance: none;
+	background-color: #bdc3c7;
+	width: 100%;
+	height: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+	outline: 0;
+}
+input[type="range"]::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ background-color:#09F;
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ cursor: pointer;
+ transition: 0.3s ease-in-out;
+ border:#09F;
+}
+ input[type="range"]::-webkit-slider-thumb:hover {
+ background-color:#09F;
+ border: 2px solid #fff;
+}
+input[type="range"]::-webkit-slider-thumb:active {
+ transform: scale(1.2);
+}
+.banjing {
+	padding-top:0.6rem;
+	padding-bottom:0.2rem;
+}
+.radio {
+	padding-left: 10%;
+	font-size: 0.15rem;
+}
+.top_back {
+	src: url(../image/nav_back_button.png);
+}
+.bg-blue {
+	background: #09F;
+	color: #FFF;
+}
+.text-bg {
+	width: 60%;
+	height: 5em;
+}
+
+.conet-body {
+	margin-top: 0.6rem;
+
+}
+.mingan-body{
+	width: 32rem;
+	margin: auto;
+	margin-top: 0.1rem;
+	background:#CCC;
+	border:1px solid #999;
+}
+.mingan-cont{
+	font-size:0.15rem;
+	width:86%;
+	float:left;
+	color:#000;}
+.mingan-type{
+	font-size:0.12rem;
+	width:48%;
+	float:left;
+	margin-top:0.1rem;
+	margin:2px;
+	color:#666;} 
+.mingan-del{
+	width:13%;
+	float:right;
+	height:0.6rem;
+	line-height:0.6rem;
+	text-align:center;
+	vertical-align:middle;}
+.cont-left{
+	float:left;
+	margin:2px;}
+.nav-more{background:url(../images/more.png) left top no-repeat;background-size:contain;}
+.nav-more:hover{background:url(../images/more.png) left top no-repeat #337bc9;background-size:contain;}
+.conet-body-2{
+	margin:0.08rem;
+	}
+.mingan-cont1{
+	width:100%;
+	float:left;
+}
+.left{
+	float:left;}
+.conet-body-6{
+	margin:1rem;}
